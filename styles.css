@@ -227,9 +227,11 @@ section {
 }
 .about-container, .about-details-container {
     display: flex;
+    margin-right: 5vh;
 }
 .about-pic {
     border-radius: 2rem;
+    margin-left: 5vh;
 }
 .arrow{
     position: absolute;
