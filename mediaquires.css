@@ -54,9 +54,10 @@
     }
     .about-container{
         display: flex;
-    flex-wrap: wrap;
-    max-width: 600px;
-    margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
     }
     .about-container,
     .contact-info-upper-container,
