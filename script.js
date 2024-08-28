@@ -5,7 +5,7 @@ function toggleMenu(){
     icon.classList.toggle("open");
 }
 const dynamicText = document.querySelector("h1 span");
-const words = ["Agus Gallego", "SOC N1 ", "PenetrationTester", "EthicalHacker"];
+const words = ["Agus Gallego", "Pentester", "EthicalHacker", "Jr"];
 let wordIndex = 0;
 let charIndex = 1;
 let isDeleting = false;
@@ -17,14 +17,14 @@ const typeEffect = () => {
     
     if(!isDeleting && charIndex < currentWord.length){
         charIndex++;
-        setTimeout(typeEffect, 200);
+        setTimeout(typeEffect, 150);
     }else if(isDeleting && charIndex > 0){
         charIndex--;
-        setTimeout(typeEffect,100);
+        setTimeout(typeEffect, 100);
     }else{
         isDeleting = !isDeleting;
         wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
-        setTimeout(typeEffect, 1200);
+        setTimeout(typeEffect, 900);
     }
 }
 typeEffect();
