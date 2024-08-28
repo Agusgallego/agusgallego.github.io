@@ -25,7 +25,7 @@ h3,h2{
 }
 /*EFECTO*/
 span h1{
-    position: relative;
+    position: absolute;
 }
 span h1::before{
     content: "";
