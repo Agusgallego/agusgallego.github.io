@@ -17,11 +17,11 @@ p{
 
 }
 h1{
-    font-family: "Orbitron";
-    color: #39FF14;              /*COLOR*/               
+    font-family: "Orbitron";    
+    color: #FF1493;          
 }
 h3,h2{
-    color: #39FF14;  
+    color: #FF1493; 
 }
 
 /* TRANSITION */
@@ -50,14 +50,14 @@ a {
     text-decoration-color: white;
 }
 a:hover{
-    color: #FF7200;
+    color:  #8A2BE2;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-    text-decoration-color: #FF7200;
+    text-decoration-color:  #8A2BE2;
 }
 .logo {
     font-size: 2rem;
-    color: #FF7200;          /*COLOR*/
+    color: #FF007F;          /*COLOR*/
 }
 .logo:hover{
     cursor: default;
@@ -82,7 +82,7 @@ a:hover{
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: #FF007F;
     transition: all 0.3 ease-in-out;
 }
 .menu-links {
@@ -206,7 +206,7 @@ section {
 }
 .btn-color-1, 
 .btn-color-2 {
-    border-color: #39FF14;
+    border-color: #FF007F;
 }
 .btn-color-1:hover,
 .btn-color-2:hover {
@@ -220,13 +220,14 @@ section {
    color: #fff;
 }
 .btn-color-1:hover{
-    background: #39FF14;
+    background: #FF007F;
 }
 .btn-color-2{
     background: none;
 }
 .btn-color-2:hover{
-    border: rgb(255,255,255) 0.1rem solid;
+    border: #8A2BE2 0.1rem solid;
+    color: #8A2BE2;
 }
 .btn-container{
     gap: 1rem;
@@ -258,7 +259,7 @@ section {
     background: black;
     border-radius: 2rem;
     border: 0.1rem solid;
-    border-color: #FF7200;
+    border-color: #00FFFF;
     text-align: center;
 }
 .section-container{
@@ -275,7 +276,7 @@ section {
     position: relative;
 }
 .experience-sub-title{
-    color: #39FF14;
+    color: #00FFFF;
     font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -308,7 +309,7 @@ article .icon{
     position: relative;
 }
 .color-container{
-    border-color: #FF7200;
+    border-color: #00FFFF;
     background: black;
 }
 .project-image{
@@ -318,11 +319,11 @@ article .icon{
 }
 .project-title{
     margin: 1rem;
-    color: #39FF14;
+    color: #00FFFF;
 }
 .project-btn{
-    color: #39FF14;
-    border-color: #39FF14;
+    color: #FF007F;
+    border-color: #FF007F;
 }
 /*CONTACT*/
 #contact{
@@ -335,8 +336,8 @@ article .icon{
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: #FF7200 0.1rem solid;
-    border-color: #FF7200;
+    border: #FF007F 0.1rem solid;
+    border-color: #FF007F;
     background: #000;
     margin: 2rem auto;
     padding: 0.5rem;
