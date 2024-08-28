@@ -23,6 +23,21 @@ h1{
 h3,h2{
     color: #FF1493; 
 }
+/*EFECTO*/
+span h1{
+    position: relative;
+}
+span h1::before{
+    content: "";
+    right: -8px;
+    top: 50%;
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: #FF1493;
+    transform: translateY(-45%);
+}
+
 
 /* TRANSITION */
 a, .btn {
@@ -89,7 +104,7 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0;
-    background: white;
+    background: black;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -100,7 +115,7 @@ a:hover{
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: #FF007F;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
